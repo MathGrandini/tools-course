@@ -54,6 +54,26 @@ p.important:hover {
     transform: scale(1.05);
 }
 
+a.important {
+    font-size: 1.2em;
+    margin: 10px 20px;
+    color: dimgray;
+    line-height: 1.8;
+    border: 3px solid #4d0080;
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+a.important:hover {
+    transform: scale(1.05);
+}
+
 
 .center-text {
     text-align: center;
